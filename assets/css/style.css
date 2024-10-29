@@ -33,7 +33,7 @@ header {
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
   position: sticky;
-  top: 0;
+  top: 15px;
   z-index: 2;
 }
 
@@ -140,7 +140,7 @@ h1 {
 
 h1 span {
   position: relative;
-  border: 1px solid black;
+  white-space: nowrap;
 }
 
 span img {
@@ -344,7 +344,7 @@ button {
 }
 
 #calendar {
-  bottom: 160px;
+  bottom: 155px;
 }
 #add {
   bottom: 85px;
@@ -377,6 +377,16 @@ aside div {
   border: 1px solid #c3c3c3;
   margin-bottom: 1em;
   padding: 1em;
+  position: relative;
+}
+
+.fa-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3em;
+  padding: 10px;
+  opacity: 10%;
 }
 
 @media screen and (min-width: 1200px) {
